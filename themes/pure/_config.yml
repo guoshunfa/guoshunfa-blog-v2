@@ -1,0 +1,248 @@
+# menu
+menu:
+  首页: .
+  归档: archives  # 归档
+  分类: categories  # 分类
+  标签: tags  # 标签
+  gitee仓库: repository  # github repositories
+  工具箱: tools  # 豆瓣书单
+  友链: links  # 友链
+  关于: about  # 关于
+
+# Enable/Disable menu icons
+menu_icons:
+  enable: true  # 是否启用导航菜单图标
+  首页: icon-home-fill
+  归档: icon-archives-fill
+  分类: icon-folder
+  标签: icon-tags
+  gitee仓库: icon-project
+  工具箱: icon-book-fill
+  友链: icon-friendship
+  关于: icon-cup-fill
+
+# rss
+rss: /atom.xml
+
+# Site
+site:
+  logo:
+    enabled: true
+    width: 40
+    height: 40
+    url: images/avatar.jpg
+  title: guoshunfa # 页面title
+  favicon: favicon.jpg
+  board: <p>欢迎交流与分享经验!</p><hr/><a href="https://www.oracle.com/cn/java/">前往Java官网<a/><br/><a href="https://spring.io/">前往Spring官网<a/> # 站点公告
+  copyright: true # 底部版权信息
+
+# config
+config:
+  skin: # 主题颜色 theme-black theme-blue theme-green theme-purple
+  layout: main-center # 布局方式 main-left main-center main-right
+  toc: true # 是否开启文章章节目录导航
+  menu_highlight: true # 是否开启当前菜单高亮显示
+  thumbnail: true # 启用帖子缩略图, options: true, false
+  excerpt_link: Read More
+  #New
+  isNewTabLinks: false #是否链接打开新标签页
+  autoUnfold: true # 默认展开文章目录
+
+# 分页
+pagination:
+  number: true
+  prev: 
+    alwayShow: true
+  next:
+    alwayShow: true
+  midSize: 2 # 当前页码左右到省略号显示的页码数，默认2，表现为 1 ... 4 5 6 7 8 ... 10
+  showContent: true # 页面文章小于2篇时显示文章内容
+
+# Sidebar
+sidebar: right
+widgets:
+  - board  
+  - category
+  - tag
+  - tagcloud
+  - archive
+  - recent_posts
+
+# 在索引页的底部显示小部件 (pagination == 2)
+index_widgets:
+- category
+# - tagcloud
+# - archive  
+
+# 小部件的行为
+archive_type: 'monthly'
+show_count: true
+
+# Fancybox
+fancybox: true
+
+# Search
+search:
+  insight: true # you need to install `hexo-generator-json-content` before using Insight Search
+  baidu: true # you need to disable other search engines to use Baidu search
+
+# Donate
+donate:
+  enable: false
+  # 微信打赏
+  wechatpay:
+    qrcode: images/donate/wechatpayimg.png
+    title: 微信支付
+  # 支付宝打赏
+  alipay: 
+    qrcode: images/donate/alipayimg.png 
+    title: 支付宝
+
+# Share
+# weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
+share:
+  enable: true  # 是否启用分享
+  sites: weibo,qq,wechat,facebook,twitter  # PC端显示的分享图标
+  mobile_sites: weibo,qq,qzone  # 移动端显示的分享图标
+
+# Github
+github: 
+  username: guoshunfa  # github username
+
+# Repository Info (This will override 'github' option)
+# 项目仓库信息（将会覆盖 github 项）
+repository:
+  platform: gitee # 托管平台（github | gitee）
+  username: guoshunfa # 用户名
+
+# Comment
+# Gitment
+# Introduction: https://imsun.net/posts/gitment-introduction/
+comment:
+  type: gitalk  # 启用哪种评论系统
+  disqus:  # enter disqus shortname here
+  youyan: 
+    uid: 1783844 # enter youyan uid 
+  livere:
+    uid: # enter youyan uid 
+  gitment:
+    githubID: 
+    repo: 
+    ClientID: 
+    ClientSecret: 
+    lazy: false
+  gitalk: # gitalk. https://gitalk.github.io/ & 问题解答： https://cuiqingcai.com/30010.html
+    owner: guoshunfa #必须. GitHub repository 所有者，可以是个人或者组织。
+    admin: guoshunfa #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
+    repo: guoshunfa-comment #必须. GitHub repository.
+    ClientID: 328529f408a5d1041fe1 #必须. GitHub Application Client ID.
+    ClientSecret: 43872fab04fe0accb98439ac77ff71ff81f7b9dd #必须. GitHub Application Client Secret.
+    enableHotKey: true
+    language: zh-CN
+    
+  valine: # Valine. https://valine.js.org
+    appid:  # your leancloud application appid
+    appkey:  # your leancloud application appkey
+    notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+    verify: false # Verification code
+    placeholder: Just go go # comment box placeholder
+    avatar: mm # gravatar style
+    meta: nick,mail,link # custom comment header
+    pageSize: 10 # pagination size
+    visitor: false # Article reading statistic https://valine.js.org/visitor.html
+
+# douban 豆瓣书单
+# Api：
+  # https://developers.douban.com/wiki/?title=book_v2 图书
+  # https://developers.douban.com/wiki/?title=movie_v2 电影
+# books：  
+  # https://api.douban.com/v2/book/user/:name/collections?start=0&count=100 个人书单列表
+# movies: 
+  # https://api.douban.com/v2/movie/in_theaters 正在上映的电影
+  # https://api.douban.com/v2/movie/coming_soon 即将上映的电影
+  # https://api.douban.com/v2/movie/subject/:id 单个电影信息
+  # https://api.douban.com/v2/movie/search?q={text} 电影搜索
+douban:
+  user: # 豆瓣用户名
+  start: 0 # 从哪一条记录开始
+  count: 100 # 获取豆瓣书单数据条数
+  apikey: # 豆瓣apikey
+  
+# PV
+pv:
+  busuanzi:
+    enable: false  # 不蒜子统计
+  leancloud:
+    enable: false  # leancloud统计
+    app_id: # leancloud <AppID>
+    app_key: # leancloud <AppKey>
+        
+# wordcount
+postCount:
+  enable: true
+  wordcount: true  # 文章字数统计
+  min2read: true  # 阅读时长预计 
+
+# Plugins
+plugins:
+  google_analytics: # enter the tracking ID for your Google Analytics
+  google_site_verification: # enter Google site verification code
+  baidu_analytics: # enter Baidu Analytics hash key
+  tencent_analytics: 
+  
+# Miscellaneous
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:  
+  
+# profile
+profile:
+  enabled: true # Whether to show profile bar
+  articleSelfBlock: false # 关闭文章下方的自我介绍
+  avatar: images/avatar.jpg
+  gravatar: # Gravatar电子邮件地址，如果你启用了Gravatar，你的头像配置将被覆盖
+  author: 郭顺发
+  author_title: java开发攻城狮
+  author_description: 专注于服务端场景的解决方案。
+  location: Harbin, China
+  follow: https://gitee.com/guoshunfa
+  # Social Links
+  social:
+    links:
+      github: https://github.com/guoshunfa
+      juejin: https://juejin.cn/user/166781500267015
+      rss: atom.xml
+    link_tooltip: true # enable the social link tooltip, options: true, false
+  # My Skills 
+  skills:
+    Java: ★★★☆☆
+    Spring: ★★☆☆☆
+    HTML+CSS+JS: ★☆☆☆☆
+    Vue: ★☆☆☆☆
+  # 我的个人链接
+  links:
+    Gitee: https://gitee.com/guoshunfa
+    Github: https://github.com/guoshunfa
+    Blog: https://guoshunfa.com
+    掘金: https://juejin.cn/user/166781500267015
+    CSDN: https://blog.csdn.net/weixin_44450947
+    博客园: https://home.cnblogs.com/u/guoshunfa
+    B站: https://space.bilibili.com/394944784?spm_id_from=333.337.0.0
+    简书: https://www.jianshu.com/u/bdf3be38c0ba
+    小红书: https://www.xiaohongshu.com/user/profile/61664235000000000201a889
+  # 我的个人标签
+  labels:
+    - JAVA后端
+    - JAVA后端开发
+    - Spring开发
+    - 解决方案
+  # 个人作品
+  # works:
+  #   个人:
+  #     link: https://www.guoshunfa.com
+  #     date: 2020
+  # My Personal Projects
+  # projects:
+  #   cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
+  #   cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
