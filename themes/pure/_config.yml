@@ -203,7 +203,7 @@ profile:
   avatar: images/avatar.jpg
   gravatar: # Gravatar电子邮件地址，如果你启用了Gravatar，你的头像配置将被覆盖
   author: 郭顺发
-  author_title: java开发攻城狮
+  author_title: JAVA开发攻城狮
   author_description: 专注于服务端场景的解决方案。
   location: Harbin, China
   follow: https://gitee.com/guoshunfa
@@ -220,6 +220,7 @@ profile:
     Spring: ★★☆☆☆
     HTML+CSS+JS: ★☆☆☆☆
     Vue: ★☆☆☆☆
+    Linux: ★★☆☆☆
   # 我的个人链接
   links:
     Gitee: https://gitee.com/guoshunfa
@@ -238,10 +239,10 @@ profile:
     - Spring开发
     - 解决方案
   # 个人作品
-  # works:
-  #   个人:
-  #     link: https://www.guoshunfa.com
-  #     date: 2020
+  works:
+    老平台:
+      link: https://o.guoshunfa.com
+      date: 2020
   # My Personal Projects
   # projects:
   #   cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
