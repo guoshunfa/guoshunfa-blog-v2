@@ -240,7 +240,10 @@ profile:
     - 解决方案
   # 个人作品
   works:
-    老平台:
+    郭顺发博客平台:
+      link: https://www.guoshunfa.com
+      date: 2020
+    郭顺发老博客平台:
       link: https://o.guoshunfa.com
       date: 2020
   # My Personal Projects

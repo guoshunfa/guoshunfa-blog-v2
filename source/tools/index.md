@@ -41,6 +41,8 @@ title: 工具箱
 * [代码图片生成器](https://carbon.now.sh/)
 * [图片转文字](https://web.baimiaoapp.com/)
 * [JSON 转换 Excel](http://j2e.kpoda.com)
+* [精校 完整 极致 Windows系统下载仓储站](https://www.hellowindows.cn/)
+
 ### API
 
 - [Java](https://docs.oracle.com/en/java/javase/index.html)
@@ -73,15 +75,6 @@ title: 工具箱
 - [阿里云控制台](https://homenew.console.aliyun.com/)
 - [微信公众号控制台](https://mp.weixin.qq.com/)
 - [百度站长平台](https://ziyuan.baidu.com/)
-
-## 友链
-
-- [L1nSn0w’s Blog](https://l1nsn0w.gitee.io) 一名热爱计算机与iOS的高中生
-- [雾雨霜星](https://www.shuangxing.top) 雾间觉雨，霜空望星
-- [一只小肥羊](https://blog.fatsheep.cn/) 喜欢折腾，热爱学习，沉迷计算机
-- [Ship Liu](https://notes.youngkbt.cn/) 朝圣的使徒，正在走向编程的至高殿堂！
-- [mahe666](https://mahe666.github.io/doc/) 比本人还帅的年轻人
-
 
 ### 技术大佬博客
 
