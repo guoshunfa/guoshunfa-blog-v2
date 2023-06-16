@@ -1,4 +1,12 @@
 # links
+zhangxinxu:
+  link: https://www.zhangxinxu.com/
+  desc: 阅文集团前端技术专家
+  avatar: https://p3-passport.byteimg.com/img/user-avatar/68f821ace988798ce6767903eb8731e7~180x180.awebp
+pdai:
+  link: https://www.pdai.tech/
+  desc: Java 全栈知识体系
+  avatar: https://www.pdai.tech/images/index-read.gif
 L1nSn0w’s Blog:
   link: https://l1nsn0w.gitee.io
   desc: 一名热爱计算机与iOS的高中生
@@ -14,11 +22,3 @@ Ship Liu:
 mahe666:
   link: https://mahe666.github.io/doc/
   desc: 比本人还帅的年轻人
-zhangxinxu:
-  link: https://www.zhangxinxu.com/
-  desc: 阅文集团前端技术专家
-  avatar: https://p3-passport.byteimg.com/img/user-avatar/68f821ace988798ce6767903eb8731e7~180x180.awebp
-pdai:
-  link: https://www.pdai.tech/
-  desc: Java 全栈知识体系
-  avatar: https://www.pdai.tech/images/index-read.gif
