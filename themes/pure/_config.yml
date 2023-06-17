@@ -211,6 +211,7 @@ profile:
   social:
     links:
       github: https://github.com/guoshunfa
+      gitee: https://gitee.com/guoshunfa
       juejin: https://juejin.cn/user/166781500267015
       rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
