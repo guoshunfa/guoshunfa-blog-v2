@@ -63,7 +63,7 @@ sidebar: right
 widgets:
   - board  
   - category
-  - tag
+  - tag  
   - tagcloud
   - archive
   - recent_posts
@@ -226,7 +226,7 @@ profile:
   links:
     Gitee: https://gitee.com/guoshunfa
     Github: https://github.com/guoshunfa
-    Blog: https://guoshunfa.com
+    Blog: https://www.guoshunfa.com
     掘金: https://juejin.cn/user/166781500267015
     CSDN: https://blog.csdn.net/weixin_44450947
     博客园: https://home.cnblogs.com/u/guoshunfa
@@ -243,7 +243,7 @@ profile:
   works:
     郭顺发博客平台:
       link: https://www.guoshunfa.com
-      date: 2020
+      date: 2023
     郭顺发老博客平台:
       link: https://o.guoshunfa.com
       date: 2020
